@@ -22,7 +22,7 @@ Changes made offline stay saved on the phone and wait for an internet connection
 
 You can pause automatic backup in JobPad Settings. You can also revoke JobPad's authorization in your Google Account. Pausing or revoking access does not remove files already in Drive.
 
-Deleting a job or attachment locally retains its previously backed-up files under the phone's **Archived** folder in Drive. Complete recovery snapshots are retained, and previous attachment versions may remain available. To remove those cloud copies, delete them using Google Drive; Google's Trash and retention rules apply. JobPad does not automatically empty Drive Trash or permanently delete your cloud backups.
+Deleting a job locally retains its previously backed-up folder under the phone's **Archived** folder in Drive. Removed attachments and older attachment versions stay in the matching active job's **Archived Files** section. Removed clients' readable records are kept in **Archived / Clients**. Complete recovery snapshots are retained. To remove cloud copies, pause automatic backup first and delete the copies using Google Drive; Google's Trash and retention rules apply. JobPad does not automatically empty Drive Trash or permanently delete your cloud backups.
 
 Uninstalling JobPad removes its local database and app-owned attachment files. Google Drive copies already backed up remain in the business account. Version 1.0.12 provides complete data and file backup but does not include an in-app import/restore tool. Update an existing installation in place to preserve its local notebook.
 
